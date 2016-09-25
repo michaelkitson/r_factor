@@ -1,3 +1,6 @@
+[![Gem Version](https://badge.fury.io/rb/r_factor.svg)](https://badge.fury.io/rb/r_factor)
+[![Build Status](https://travis-ci.org/michaelkitson/r_factor.svg?branch=master)](https://travis-ci.org/michaelkitson/r_factor)
+
 # RFactor
 
 A small CLI utility to factor integers.
