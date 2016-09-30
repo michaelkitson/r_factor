@@ -1,5 +1,6 @@
 [![Gem Version](https://badge.fury.io/rb/r_factor.svg)](https://badge.fury.io/rb/r_factor)
 [![Build Status](https://travis-ci.org/michaelkitson/r_factor.svg?branch=master)](https://travis-ci.org/michaelkitson/r_factor)
+[![codecov](https://codecov.io/gh/michaelkitson/r_factor/branch/master/graph/badge.svg)](https://codecov.io/gh/michaelkitson/r_factor)
 
 # RFactor
 
