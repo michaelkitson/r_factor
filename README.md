@@ -19,6 +19,8 @@ Install it yourself with:
     12741: 3 31 137
     86157: 3 3 3 3191
     31628: 2 2 7907
+    $ echo "123123123" | factor
+    123123123: 3 3 41 333667
 
 ## Development
 
