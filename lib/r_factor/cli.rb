@@ -1,6 +1,23 @@
+require 'optparse'
+
 module RFactor
   class CLI
     def self.start
+      OptionParser.new do |opts|
+        opts.banner = 'Usage: factor [options] [<integer> ...]'
+        opts.version = RFactor::VERSION
+
+        opts.on('-v', '--version', 'Show version number') do
+          puts opts.ver
+          exit
+        end
+
+        opts.on('-h', '--help', 'Show help message') do
+          puts opts.help
+          exit
+        end
+      end.parse!
+
       inputs = ARGV
 
       if inputs.empty?
